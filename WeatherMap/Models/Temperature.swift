@@ -9,6 +9,6 @@ import Foundation
 
 
 struct Temperature: Codable {
-    var main: Double
+    var min: Double
     var max: Double
 }
