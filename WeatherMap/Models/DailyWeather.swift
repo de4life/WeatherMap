@@ -20,7 +20,7 @@ enum CodingKey: String {
 }
     init() {
         dt = 0
-        temp = Temperature(main: 0
+        temp = Temperature(min: 0
                            , max: 0.0)
         weather = [WeatherDetail(main: "", description: "", icon: "")]
     }
